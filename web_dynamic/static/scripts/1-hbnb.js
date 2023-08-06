@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  console.log('DOM Is Loaded');
   $('.amenities .popover li input').on('change', function () {
     const checkedCheckbox = $('.amenities .popover ul').find("input[type='checkbox']");
     const checkedItems = {};
